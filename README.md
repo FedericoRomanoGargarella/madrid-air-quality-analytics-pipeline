@@ -124,8 +124,4 @@ These are intentionally ignored in Git because they are generated outputs, not s
 
 Matteo Bruni, Federico Romano Gargarella, Matteo Rapisarda.
 
-## Context
 
-Academic analytics project developed at LUISS Guido Carli University for Advanced Coding for Data Analytics.
-
-This is the standalone portfolio version of the project, prepared outside the original fork so that the repository is easier to read, run and share.
