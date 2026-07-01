@@ -76,49 +76,6 @@ The analysis ties the project together around four stories: where pollution conc
     └── README.md
 ```
 
-## How to run it
-
-Create a virtual environment and install the dependencies:
-
-```bash
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Download the METRAQ dataset from Hugging Face:
-
-```text
-https://huggingface.co/datasets/dmariaa70/METRAQ-Air-Quality
-```
-
-Place the CSV in the repository root and rename it to:
-
-```text
-metraq_air_quality.csv
-```
-
-Then open and run:
-
-```text
-main.ipynb
-```
-
-`worker.py` must stay in the same folder as `main.ipynb`, because the multiprocessing section imports it.
-
-## Generated files
-
-The notebook can create local folders such as:
-
-```text
-imputation_results/
-data_by_year/
-correlation_matrices/
-outputs/
-figures/
-```
-
-These are intentionally ignored in Git because they are generated outputs, not source files.
 
 ## Authors
 
